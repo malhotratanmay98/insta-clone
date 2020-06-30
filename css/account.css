@@ -1,0 +1,74 @@
+h5{
+    margin-bottom: 0rem;
+}
+
+.details{
+    margin-left: 5%;
+}
+
+.navbar{
+    height: 60px;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.navbar-bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+  }
+
+  .top-container{
+      margin: 10% 5% 0% 5%;
+      display: flex;
+  }
+ 
+
+ 
+  .info{
+      margin-left: 5%;
+      /* display: contents; */
+      width: -webkit-fill-available;
+  }
+  .dp{
+
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    }
+
+  table{
+      border-spacing: 15px;
+      width: -webkit-fill-available;
+  }
+
+  .edit{
+      margin-left: 5%;
+      margin-right: 5%;
+      width: 90%;
+  }
+
+  .posts{
+      width: 117px;
+      height: 117px;
+      vertical-align: middle;
+  }
+
+  .footer-icons{
+    margin: 5px 20px;
+    color: black;
+    font-size: xx-large;
+    
+  }
+
+.active-icon{
+    margin: 5px 20px;
+    color: red;
+    font-size: xx-large;
+  }
+

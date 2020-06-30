@@ -1,0 +1,54 @@
+
+
+h3{
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Sriracha', cursive;
+    margin: 12px;
+}
+
+.navbar{
+    position: fixed;
+    height: 60px;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .main{
+     margin: 10% 0% 5% 25%;
+  }
+  
+
+img{
+    position: fixed;
+    margin:  5px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+.navbar-bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+  }
+
+  .footer-icons{
+    margin: 5px 20px;
+    color: black;
+    font-size: xx-large;
+    
+  }
+
+.active-icon{
+    margin: 5px 20px;
+    color: red;
+    font-size: xx-large;
+  }
