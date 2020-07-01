@@ -8,10 +8,14 @@
   margin-left: 4%;
 }
 h5{
-  font-family: 'Merriweather', serif;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Sacramento', cursive;
-  font-family: 'Sriracha', cursive;
+  font-family: 'Merriweather', 
+    serif;
+    font-family: 'Montserrat',
+     sans-serif;
+    font-family: 'Pacifico',
+      cursive;
+    font-family: 'Sacramento',
+     cursive;
   font-size: 60px;
   text-align: center;
   margin-left:5%;
