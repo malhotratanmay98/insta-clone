@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Instagram</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Sriracha&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+
+         <a href="#" onclick="opencam()"><i class="logo fas fa-camera"></i></a> 
+         
+         
+        <h5>Instagram</h5>
+       
+        <a href="messages.html"><i class=" logo far fa-paper-plane "></i></a>
+      
+          
+
+        </nav>
+
+        
+
+        <div class="scroll">
+          <img id ="1" class="story"  onclick="showstory(this.id)" src="images/ross.jpg" alt="">
+          <img id ="2" class="story" onclick="showstory(this.id)" src="images/monica.jpg" alt="">
+          <img id ="3" class="story" onclick="showstory(this.id)" src="images/chandler.jpg" alt="">
+          <img id ="4" class="story" onclick="showstory(this.id)" src="images/pheobe.jpg" alt="">
+          <img id ="5" class="story" onclick="showstory(this.id)" src="images/joey.jpg" alt="">
+          <img id ="6" class="story" onclick="showstory(this.id)" src="images/rachel.jpg" alt="">
+        </div>
+        <hr class="line">
+
+        <div class=" switch custom-control custom-switch">
+          <input type="checkbox" onclick="darkmode()" class="custom-control-input" id="customSwitch1">
+          <label class=" switch custom-control-label" for="customSwitch1">Dark mode</label>
+        </div>
+
+        <div class="posts">
+          <div class="profile">
+          <img class="story"src="images/pheobe.jpg" alt="">
+          <div class="profile-name"><h4>pheobe buffay</h4></div>
+        </div>
+          <img class="post-img" src="images/pheobe.jpg" alt="">
+         <i class="like-comment far fa-heart"></i>
+          <i class="like-comment far fa-comment"></i>
+          <i class="like-comment float-right far fa-bookmark"></i>
+        </div>
+
+        <div class="posts">
+          <div class="profile">
+           <img class="story"src="images/chandler.jpg" alt="">
+           <div class="profile-name"> <h4>Binggg</h4></div>
+          </div>
+          <img class="post-img" src="images/chandler.jpg" alt="">
+         
+        </div>
+
+        
+
+
+        <nav class="navbar-bottom navbar-expand-lg navbar-dark ">
+          <a href="index.html"><i class="footer-icons fab fa-instagram"></i></a>
+          <a href="search.html"><i class="footer-icons fas fa-search"></i></a>
+         <a href="activity.html"><i class="footer-icons far fa-heart"></i></a>
+        <a href="account.html"><i class="footer-icons far fa-user-circle"></i></a>
+     
+          
+
+        </nav>
+
+
+        <script src="js/index.js"></script>
+  </body>
+</html>
