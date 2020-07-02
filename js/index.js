@@ -1,5 +1,6 @@
 var checkState=false;
 var storyState=false;
+var likeState=false;
 function opencam(){
     
 }
@@ -42,16 +43,22 @@ function darkmode(){
     $('#'+clicked_id).css("border-radius","100%");
    }
     
-    
-    
-   
-    
-   
+}
+  
       
     //  $('#'+clicked_id).width(100); // Units are assumed to be pixels
     //  $('#'+clicked_id).height(100);
- }
-
+ 
+function likedPic(like_id){
+    if(likeState===false){
+        likeState=true;
+        $("#"+like_id).css("color","red");
+    }
+    else{
+        likeState=false;
+        $("#"+like_id).css("color","black");
+    }
+}
 
 
   
