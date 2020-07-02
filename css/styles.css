@@ -9,6 +9,7 @@
 }
 h5{
   font-family: 'Merriweather', 
+<<<<<<< HEAD
   serif;
   font-family: 'Montserrat',
    sans-serif;
@@ -16,6 +17,15 @@ h5{
     cursive;
   font-family: 'Sacramento',
    cursive;
+=======
+    serif;
+    font-family: 'Montserrat',
+     sans-serif;
+    font-family: 'Pacifico',
+      cursive;
+    font-family: 'Sacramento',
+     cursive;
+>>>>>>> 3d0e1814e00409e0375a6546dd07fab5b80831e2
   font-size: 60px;
   text-align: center;
   margin-left:5%;
