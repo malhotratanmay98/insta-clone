@@ -24,26 +24,36 @@
 
         <a href="messages.html"><i class="back-icon fas fa-arrow-left"></i></a>    
   
-          <a class=" heading navbar-brand" href="#">Ross</a>
+          <a class=" heading navbar-brand ml-auto" href="#">Ross</a>
+          <img class="dp"src="images/ross.jpg" alt="">
       </nav>  
       
       <div class="messages">
-          <h6>2 july,12:01pm</h6>
-          <p id="sender">hey bro,how r u??</p>
+          <h6 id="date">2 july,12:01pm</h6>
+          <p id="sender">hey,how r u??</p>
           <p id="reciever">i m fine brother</p>
           <p id="sender">meeting today @5?</p>
+          <p id="sent-msg" ></p>
+          <p id="recieved-msg" ></p>
       </div>
 
       <div class="footer">
-         <form class="input" >
-            <input class="input rounded-pill form-control form-control-lg" type="text" placeholder="">
+         <form class="input" id="input-text"  >
+            <input class="input rounded-pill form-control form-control-lg"  type="text" placeholder="Type message...">
             
         </form>
-        <div class="round">
-            <a href=""><i class="send-icon fas fa-paper-plane"></i></a>
+
+      
+
+        <div class="round" onclick="send()">
+            <a ><i class="send-icon fas fa-paper-plane"></i></a>
         </div>
         
       </div>
+
       
+      
+
+      <script src="js/chat.js"></script>
 </body>
 </html>
