@@ -51,9 +51,15 @@ text-align: center;
 
 .bottom-container{
     
-    text-align: center;
-    margin: 15% 0 0 2%;
-    color:black;
+text-align: center;
+    
+margin: 15% 0 0 2%;
+    
+color:black;
+    
+position: sticky;
+    
+bottom: 0;
 }
 
 
@@ -97,6 +103,8 @@ height: 80%;
     }
 
     .bottom-container{
-        margin-top: 10%;
+       
+margin-bottom: 0px;
+
     } 
 }

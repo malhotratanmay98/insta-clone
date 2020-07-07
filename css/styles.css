@@ -1,23 +1,20 @@
+body{
+  background-color: white;
+}
 .navbar{
   height: 80px;
  
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .profile-name{
+
   margin-top: 8%;
   margin-left: 4%;
 }
+
+
 h5{
   font-family: 'Merriweather', 
-<<<<<<< HEAD
-  serif;
-  font-family: 'Montserrat',
-   sans-serif;
-  font-family: 'Pacifico',
-    cursive;
-  font-family: 'Sacramento',
-   cursive;
-=======
     serif;
     font-family: 'Montserrat',
      sans-serif;
@@ -25,7 +22,6 @@ h5{
       cursive;
     font-family: 'Sacramento',
      cursive;
->>>>>>> 3d0e1814e00409e0375a6546dd07fab5b80831e2
   font-size: 60px;
   text-align: center;
   margin-left:5%;
@@ -33,6 +29,8 @@ h5{
   
   
 }
+
+
 
 .logo{
   color: black;
@@ -109,6 +107,7 @@ display: flex;
   background-color: white;
   color: black;
   text-align: center;
+  
 }
 
 .footer-icons{
@@ -116,3 +115,38 @@ display: flex;
   color: black;
   font-size: xx-large;
 }
+
+@media(min-width:800px){
+  body{
+    width: 100%;
+    margin-right: 25%;
+    margin-left: 25%;
+    background-color: #212529;
+  }
+
+  #full-page{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: yellow;
+  }
+
+  #nb{
+    justify-content: space-between;
+  }
+  
+  .posts{
+    width: 80%;
+    margin: auto;
+  }
+  .post-img{
+    
+    display:block;
+    
+  }
+  
+}
+
+
