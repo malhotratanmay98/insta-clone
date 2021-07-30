@@ -15,13 +15,13 @@ var firebaseConfig = {
 
 $('#btn-login').click(function(){
 
-    var email=$('#email').val();
+    var email=$('#email').val();``
     var password=$('#pw').val();
 
     //window.alert(email + password);
 
     if(email!="" && password!=""){
-        var result= firebase.auth().signInWithEmailAndPassword(email,password);
+        var result=firebase.auth().signInWithEmailAndPassword(email,password);
       
         result.catch(function(error){
             var errorCode=error.code;
